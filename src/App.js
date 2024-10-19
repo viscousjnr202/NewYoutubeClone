@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import Video from './pages/Video/Video';
 
 function App() {
+  const [print, setPrint] = useState(null)
   const [sidebar, setSidebar] = useState(true);
   return (
     <div className="App">
