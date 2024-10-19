@@ -7,6 +7,7 @@ import Video from './pages/Video/Video';
 
 function App() {
   const [sidebar, setSidebar] = useState(true);
+  const name = ' Appiah'
   return (
     <div className="App">
       <Navbar setSidebar={setSidebar}/>
